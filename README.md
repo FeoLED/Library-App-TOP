@@ -7,6 +7,7 @@ A simple library application for managing your book collection, built as part of
 
 ## Live Preview
 ![View Live Demo](https://feoled.github.io/Library-App-TOP/)
+https://feoled.github.io/Library-App-TOP/
 
 ## About 
 The main focus of this project was to practice DOM manipulation and understand JavaScript prototypes and inheritance concepts.
