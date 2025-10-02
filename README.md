@@ -70,7 +70,6 @@ This project fulfills the following requirements from The Odin Project:
 - Read status toggle for each book
 - Use of unique IDs for book identification
 
-![](formScreenshot.png)
 
 *This project was completed as part of The Odin Project's JavaScript curriculum.*
 
