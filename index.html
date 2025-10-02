@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My library app</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <script defer src="script.js"></script>
+        <header>
+            <h1>My library</h1>
+            <button class="newBookButton">Add New Book</button>
+        </header>
+        <main class="bookcase"></main>
+        <form class="newBookForm">
+            <fieldset>
+                <label for="bookTitle">Title</label>
+                <input type="text" id="bookTitle" required>
+            </fieldset>
+            <fieldset>
+                <label for="bookAuthor">Author</label>
+                <input type="text" id="bookAuthor" required>
+            </fieldset>
+            <fieldset>
+                <label for="bookPages">Pages</label>
+                <input type="number" min="1" id="bookPages" required>
+            </fieldset>
+            <fieldset>
+                <input type="radio" name="readState" value="Read" id="read" required>
+                <label for="read">Read</label>
+                <input type="radio" name="readState" value="Not Read" id="notRead" required>
+                <label for="notRead">Not Read</label>
+            </fieldset>
+            <input type="submit" value="Add New Book" class="sendNewBookButton">
+        </form>
+    </body>
+</html>

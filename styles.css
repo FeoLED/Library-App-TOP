@@ -1,0 +1,91 @@
+body{
+  position:relative;
+  background-color: lightsalmon;
+  margin-left:6vw;
+  margin-right: 6vw;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0px 5px;
+  border-bottom: solid 1px coral;
+  margin-bottom: 5vh;
+}
+h1{
+  color:wheat;
+  text-shadow: 2px 2px 4px coral;
+  font-size: 35px;
+}
+.bookcase{
+  box-shadow: 0px 0px 4px coral;
+  background-color: wheat;
+  border-radius: 10px;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap:15px;
+  
+}
+.book{
+  display: grid;
+  gap:7px;
+  border:1px solid coral;
+  border-radius: 10px;
+  padding:15px;
+  color:navy;
+  text-shadow: 0px 0px 1px cyan;
+  font-size: 1em;
+}
+.readButton, .deleteButton{
+  font-size:1em;
+  padding:5px;
+  border-radius:10px;
+  border:none;
+  font-weight:bold;
+  box-shadow:0px 0px 3px coral;
+}
+.newBookButton{
+  font-size:1em;
+  border:solid 1px orangered;
+  box-shadow: 0px 0px 5px coral;
+  padding:10px 15px;
+  border-radius:15px;
+  font-weight:bold;
+}
+.newBookForm{
+  border:4px double darkturquoise;
+  background-color:turquoise;
+  display: grid;
+  position:absolute;
+  gap:10px;
+  top:10vh;
+  left:33vw;
+  z-index:1;
+  padding:20px;
+  border-radius:15px;
+}
+.newBookForm >*{
+  display:flex;
+  justify-content:space-evenly;
+  gap:5px;
+}
+#bookTitle, #bookAuthor, #bookPages{
+  font-size:16px;
+}
+.newBookForm > fieldset{
+  padding:10px;
+  border-radius:15px;
+  border:2px solid darkturquoise;
+  background-color:aquamarine;
+  text-shadow:0px 0px 1px;
+}
+.sendNewBookButton{
+  border-radius:15px;
+  width:100%;
+  padding:10px;
+  font-size:medium;
+  font-weight:bold;
+  border:2px solid darkturquoise;
+  background-color:aquamarine;
+}
